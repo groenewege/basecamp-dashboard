@@ -19,4 +19,8 @@ Install the program on a PHP 5.3 server, and change the necessary configuration 
 
 Now you can add a Do-It-Yourself widget to your Status Board with the correct link.
 
-Enjoy.
+## Thanks to
+
+* [Ben Dunlap](https://github.com/bdunlap/basecamp.php)
+* [37signals](https://basecamp.com/)
+* [Panic](http://panic.com/statusboard/)
