@@ -11,7 +11,7 @@ You can find the PHP program necessary for this widget on this [github page](htt
 Install the program on a PHP 5.3 server, and change the necessary configuration parameters in the `index.php` file.
 
 You can see your Account ID by visiting a Basecamp project and looking at the URL of the page.
-i.e. FOR https://basecamp.com/**1234567**/projects/1111111-name-of-the-project THE ACCOUNT ID IS **1234567**
+i.e. FOR https://basecamp.com/1234567/projects/1111111-name-of-the-project THE ACCOUNT ID IS **1234567**
 
     /**
     * CHANGE THESE SETTINGS TO YOUR BASECAMP ACCOUNT SETTINGS
