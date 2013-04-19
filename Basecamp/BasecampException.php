@@ -1,6 +1,6 @@
 <?php
 
-namespace Mite;
+namespace Basecamp;
 
 class BasecampException extends \Exception
 {

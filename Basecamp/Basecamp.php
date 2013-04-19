@@ -105,7 +105,7 @@ class Basecamp
 
 		$statusCode = $response_headers['http_status_code'];
 		if ($statusCode >= 400) {
-			throw new Exception("HTTP error $statusCode:\n"
+			throw new \Exception("HTTP error $statusCode:\n"
 				.print_r(compact('method', 'url', 'query',
 					'payload', 'request_headers',
 					'response_headers', 'response',
@@ -126,7 +126,7 @@ class Basecamp
 		$error = curl_error($ch);
 		curl_close($ch);
 
-		if ($errno) throw new Exception("cUrl error: $error", $errno);
+		if ($errno) throw new \Exception("cUrl error: $error", $errno);
 
 		list($message_headers, $message_body) = preg_split("/\r\n\r\n|\n\n|\r\r/", $response, 2);
 		$response_headers = $this->curl_parse_headers_($message_headers);
